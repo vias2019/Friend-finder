@@ -241,7 +241,7 @@
               parseInt($("#q10").val(),10)
             ]
           };
-  
+          console.log(userData.scores);
           // AJAX post the data to the friends API.
           $.post("/friends", userData, function(data) {
   
@@ -257,6 +257,8 @@
           alert("Please fill out all fields before submitting!");
         }
       });
+
+    
     </script>
   
   

@@ -5,16 +5,10 @@ var friends=require('../data/friends');
 module.exports = function(app) {
     
   
-    app.get("/friends", function(req, res) {
+        app.get("/api/friends", function(req, res) {
       res.json(friends);
-      console.log(res.json(friends));
+      console.log(friends);
     });
-
-    app.get("/api/survey", function(req, res) {
-      res.json(req.body);
-      console.log(res.json(req.body));
-    });
-    //var newArray=[];
     
     
     function sumOfFriendPoints(userdata){
@@ -24,8 +18,6 @@ module.exports = function(app) {
         var totalDifference=0;
         for (var j=0; j<friends[i].scores; j++){
            totalDifference += Math.abs(userdata.scores[j]-friends[i].scores[j]);
-          
-          //newArray.push(Math.abs(userdata-friends[i].scores[j]));
         }
         if(totalDifference < mimimum){
           mimimum = totalDifference;
@@ -35,17 +27,12 @@ module.exports = function(app) {
       return matchingFriend;
     }
   
-    // function searchMinimumValue(){
-    //   sumOfFriendPoints();
-    //   var findIndex=newArray.indexOf(Math.min.apply(null, newArray));
-    //   console.log(newArray.indexOf(Math.min.apply(null, newArray)));
-    //   var findFriend=friends[findIndex];
-    //   console.log(friends[findIndex]);
-    //   return findFriend;
-    // }
-    //searchMinimumValue();
     app.post("/friends", function(req, res) {
+     // for (parseint)
      var bestMatch=sumOfFriendPoints(req.body);
+     
+     friends.push(req.body);
+     console.log("friends array",friends)
      res.json(bestMatch);
       });
   };

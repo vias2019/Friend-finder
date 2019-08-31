@@ -221,7 +221,7 @@
         //   });
           return isValid;
         }
-  
+        //var reqFriends = require(../data/friends);
         // If all required fields are filled
         if (validateForm()) {
           // Create an object for the user"s data
@@ -229,18 +229,19 @@
             name: $("#name").val(),
             photo: $("#photo").val(),
             scores: [
-              parseInt($("#q1").val(),10),
-              parseInt($("#q2").val(),10),
-              parseInt($("#q3").val(),10),
-              parseInt($("#q4").val(),10),
-              parseInt($("#q5").val(),10),
-              parseInt($("#q6").val(),10),
-              parseInt($("#q7").val(),10),
-              parseInt($("#q8").val(),10),
-              parseInt($("#q9").val(),10),
-              parseInt($("#q10").val(),10)
+              $("#q1").val(),
+              $("#q2").val(),
+              $("#q3").val(),
+              $("#q4").val(),
+              $("#q5").val(),
+              $("#q6").val(),
+              $("#q7").val(),
+              $("#q8").val(),
+              $("#q9").val(),
+              $("#q10").val()
             ]
           };
+          //friends.push(userData);
           console.log(userData.scores);
           // AJAX post the data to the friends API.
           $.post("/friends", userData, function(data) {

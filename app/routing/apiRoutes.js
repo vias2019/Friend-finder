@@ -1,12 +1,11 @@
 
 //var survey =require("../public/survey.html");
-var path = require('path');
 var friends=require('../data/friends');
 module.exports = function(app) {
     
   
         app.get("/api/friends", function(req, res) {
-      res.json(friends);
+      res.json(friends);//string, json, files
       console.log(friends);
     });
     
@@ -16,7 +15,7 @@ module.exports = function(app) {
     var matchingFriend;
       for (var i=0; i<friends.length; i++){
         var totalDifference=0;
-        for (var j=0; j<friends[i].scores; j++){
+        for (var j=0; j<friends[i].scores.length; j++){
            totalDifference += Math.abs(userdata.scores[j]-friends[i].scores[j]);
         }
         if(totalDifference < mimimum){
@@ -28,7 +27,10 @@ module.exports = function(app) {
     }
   
     app.post("/friends", function(req, res) {
-     // for (parseint)
+     
+     var updatedScore= req.body.scores.map(function(score){
+       return parseInt(score)});
+     req.body.scores=updatedScore;
      var bestMatch=sumOfFriendPoints(req.body);
      
      friends.push(req.body);

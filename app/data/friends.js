@@ -1,7 +1,7 @@
 var friends = [
     {
     "name":"Ahmed",
-    "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+    "photo":"../pictures/man1.jpg",
     "scores":[
         5,
         1,
@@ -17,7 +17,7 @@ var friends = [
   },
   {
     "name":"Ruslan",
-    "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+    "photo":"../man2.jpg",
     "scores":[
         1,
         1,
@@ -33,7 +33,7 @@ var friends = [
   },
   {
     "name":"Andrey",
-    "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+    "photo":"../man3.jpg",
     "scores":[
         1,
         5,
@@ -49,7 +49,7 @@ var friends = [
   },
   {
     "name":"Kiril",
-    "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+    "photo":"../man4.jpg",
     "scores":[
         5,
         1,
@@ -65,7 +65,7 @@ var friends = [
   },
   {
     "name":"Will",
-    "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+    "photo":"../man5.jpg",
     "scores":[
         5,
         1,
@@ -81,7 +81,7 @@ var friends = [
   },
   {
     "name":"Edik",
-    "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+    "photo":"../man6.jpg",
     "scores":[
         1,
         1,
@@ -97,7 +97,7 @@ var friends = [
   },
   {
     "name":"Sasha",
-    "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+    "photo":"../woman1.jpg",
     "scores":[
         5,
         5,
@@ -113,7 +113,7 @@ var friends = [
   },
   {
     "name":"Alex",
-    "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+    "photo":"../woman2.jpg",
     "scores":[
         1,
         1,
@@ -129,7 +129,7 @@ var friends = [
   },
   {
     "name":"Vlad",
-    "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+    "photo":"../man7.jpg",
     "scores":[
         5,
         1,
@@ -145,7 +145,7 @@ var friends = [
   },
   {
     "name":"Zhenya",
-    "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+    "photo":"../woman3.jpg",
     "scores":[
         2,
         5,

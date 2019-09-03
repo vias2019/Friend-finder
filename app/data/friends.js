@@ -1,7 +1,7 @@
 var friends = [
     {
     "name":"Ahmed",
-    "photo":"../pictures/man1.jpg",
+    "photo": "../pictures/man1.jpg",
     "scores":[
         5,
         1,
@@ -17,7 +17,7 @@ var friends = [
   },
   {
     "name":"Ruslan",
-    "photo":"../man2.jpg",
+    "photo": "../pictures/man2.jpg",
     "scores":[
         1,
         1,
@@ -33,7 +33,7 @@ var friends = [
   },
   {
     "name":"Andrey",
-    "photo":"../man3.jpg",
+    "photo": "../pictures/man3.jpg",
     "scores":[
         1,
         5,
@@ -49,7 +49,7 @@ var friends = [
   },
   {
     "name":"Kiril",
-    "photo":"../man4.jpg",
+    "photo": "../pictures/man4.jpg",
     "scores":[
         5,
         1,
@@ -65,7 +65,7 @@ var friends = [
   },
   {
     "name":"Will",
-    "photo":"../man5.jpg",
+    "photo": "../pictures/man5.jpg",
     "scores":[
         5,
         1,
@@ -81,7 +81,7 @@ var friends = [
   },
   {
     "name":"Edik",
-    "photo":"../man6.jpg",
+    "photo": "../pictures/man6.jpg",
     "scores":[
         1,
         1,
@@ -97,7 +97,7 @@ var friends = [
   },
   {
     "name":"Sasha",
-    "photo":"../woman1.jpg",
+    "photo": "../pictures/woman1.jpg",
     "scores":[
         5,
         5,
@@ -113,7 +113,7 @@ var friends = [
   },
   {
     "name":"Alex",
-    "photo":"../woman2.jpg",
+    "photo": "../pictures/woman2.jpg",
     "scores":[
         1,
         1,
@@ -129,7 +129,7 @@ var friends = [
   },
   {
     "name":"Vlad",
-    "photo":"../man7.jpg",
+    "photo": "../pictures/man7.jpg",
     "scores":[
         5,
         1,
@@ -145,7 +145,7 @@ var friends = [
   },
   {
     "name":"Zhenya",
-    "photo":"../woman3.jpg",
+    "photo": "../pictures/woman3.jpg",
     "scores":[
         2,
         5,

@@ -1,7 +1,7 @@
 var friends = [
     {
     "name":"Ahmed",
-    "photo": "../pictures/man1.jpg",
+    "photo": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60",
     "scores":[
         5,
         1,
@@ -17,7 +17,7 @@ var friends = [
   },
   {
     "name":"Ruslan",
-    "photo": "../pictures/man2.jpg",
+    "photo": "https://images.unsplash.com/photo-1497551060073-4c5ab6435f12?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60",
     "scores":[
         1,
         1,
@@ -33,7 +33,7 @@ var friends = [
   },
   {
     "name":"Andrey",
-    "photo": "../pictures/man3.jpg",
+    "photo": "https://images.unsplash.com/photo-1453396450673-3fe83d2db2c4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60",
     "scores":[
         1,
         5,
@@ -49,7 +49,7 @@ var friends = [
   },
   {
     "name":"Kiril",
-    "photo": "../pictures/man4.jpg",
+    "photo": "https://images.unsplash.com/photo-1521341057461-6eb5f40b07ab?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60",
     "scores":[
         5,
         1,
@@ -65,7 +65,7 @@ var friends = [
   },
   {
     "name":"Will",
-    "photo": "../pictures/man5.jpg",
+    "photo": "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60",
     "scores":[
         5,
         1,
@@ -81,7 +81,7 @@ var friends = [
   },
   {
     "name":"Edik",
-    "photo": "../pictures/man6.jpg",
+    "photo": "https://images.unsplash.com/photo-1480455624313-e29b44bbfde1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60",
     "scores":[
         1,
         1,
@@ -97,7 +97,7 @@ var friends = [
   },
   {
     "name":"Sasha",
-    "photo": "../pictures/woman1.jpg",
+    "photo": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60",
     "scores":[
         5,
         5,
@@ -113,7 +113,7 @@ var friends = [
   },
   {
     "name":"Alex",
-    "photo": "../pictures/woman2.jpg",
+    "photo": "https://images.unsplash.com/photo-1486074051793-e41332bf18fc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60",
     "scores":[
         1,
         1,
@@ -129,7 +129,7 @@ var friends = [
   },
   {
     "name":"Vlad",
-    "photo": "../pictures/man7.jpg",
+    "photo": "https://images.unsplash.com/photo-1489424731084-a5d8b219a5bb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60",
     "scores":[
         5,
         1,
@@ -145,7 +145,7 @@ var friends = [
   },
   {
     "name":"Zhenya",
-    "photo": "../pictures/woman3.jpg",
+    "photo": "https://images.unsplash.com/photo-1481824429379-07aa5e5b0739?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60",
     "scores":[
         2,
         5,
